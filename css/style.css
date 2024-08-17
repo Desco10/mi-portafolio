@@ -1,0 +1,179 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+   
+ body {
+    background-image: url('https://img.freepik.com/foto-gratis/concepto-control-calidad-estandar-m_23-2150041859.jpg'); /* Asegúrate de que la imagen sea de alta resolución */
+    background-size: cover;          /*  cubrir todo el fondo */
+    background-position: center;     /* Centrar imagen en el fondo */
+    background-repeat: no-repeat;    /* no repita la imagen*/
+    background-attachment: fixed;    /* Hace que la imagen se mantenga fija al hacer scroll */
+    image-rendering: -webkit-optimize-contrast; /* Optimiza la calidad de la imagen  */
+    image-rendering: crisp-edges;    /* Ayuda a mejorar la renderización en otros navegadores */
+    image-rendering: pixelated;      /* Opcional: fuerza a la imagen a mantener sus píxeles originales, útil en gráficos retro */
+    margin: 0;
+    padding: 0;
+    height: 100vh;                   /* Asegura que el body cubra toda la altura de la ventana */
+    }
+        
+    
+    
+.contenido h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e9ebf0
+        
+    }
+    
+.contenido p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(239, 241, 241);
+    }
+
+.btn{
+    
+    color: azure;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+                
+    }
+.btn:hover{
+    background: #2fb4cc;
+    color: #fff;
+
+    }
+
+
+.daniel{
+    border-radius: 300%;
+    }
+
+.card{
+    background: rgba(53, 33, 238, 0.74);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    
+    text-align: center;
+    margin: auto;
+    transition: background-color 0.10s ease;  
+    padding:  20px;
+    margin-top: 10px;
+    }
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+   
+    transform: translatey(40%);
+    }
+
+.icons {
+    background:none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 10px;
+    text-align: center;
+    position : relative;   
+    }
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px; /* Espacio entre los íconos */
+    }
+
+.icon {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s;
+    }
+
+.icon:hover {
+    color: #007bff; /* al pasar por encima */
+    }
+.instagram:hover{
+    color:#e4405f; 
+    }
+
+.whatsapp:hover{
+    color: #25d366;
+    }
+/* Colores específicos para las redes */
+.facebook {
+    color:#ffffff;
+    }
+
+.linkedin {
+    color: #ffffff;
+    }
+
+.instagram {
+    color:#ffffff  
+    }
+
+.whatsapp {
+    color:#ffffff 
+    }
+
+.containerpro {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    }
+
+.IMGPRO1 {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50px;
+    }
+
+.IMGPRO2 {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50px;
+    }
+
+.detalles {
+    flex: 10;
+    padding-left: 40px;
+    margin: 10px 0; /* Espacio entre los párrafos */
+    text-align: justify; 
+    }
+
+.detalles h2 {
+    margin-top: 0;
+    color: #ffffff;
+    }
+
+.detalles p {
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: rgba(0, 0, 255, 0.308);
+    font-weight: 900;
+    margin: 10px 0; /* Espacio entre los párrafos */
+    text-align: justify; 
+    border-radius: 100%;
+    text-shadow: 
+    -1px -1px 0 #000,  /* Sombra hacia arriba a la izquierda */
+     1px -1px 0 #000,  /* Sombra hacia arriba a la derecha */
+    -1px  1px 0 #000,  /* Sombra hacia abajo a la izquierda */
+     1px  1px 0 #000;  
+    }
+
+header {
+    border-radius: 400px;
+    width: 40px;
+    float: center;
+    margin-left: 100px;
+    background-color: #549be7a9;
+    color: #ffffff;
+    }
